@@ -1,0 +1,40 @@
+.main-container{
+    height: 100%;
+   
+}
+.top-menu{
+    position:  fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+.top-menu .logo-container{
+    height: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.top-menu .logo-container img{
+    height: 100%;
+    cursor: pointer;
+}
+.top-menu .logo-container i{
+    font-size: 12px;
+    cursor: pointer;
+}
+.top-menu .buttons-top{
+    font-size: 18px;
+    display: flex;
+    gap: 15px;
+}
+.top-menu .buttons-top a{
+    cursor: pointer;
+}
